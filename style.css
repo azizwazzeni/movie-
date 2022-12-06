@@ -1,0 +1,136 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap'); 
+ *{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+ header {
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+.logo{
+    
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: -550px;
+}
+.navigation a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+body{
+    background-color: rgb(5, 8, 10);
+    background-position: 50px;
+}
+section {
+    padding: 100px 100px;
+    display: grid;
+}
+
+#icon2{
+    width: 42px;
+    height: 38px;
+    background-color: black;
+    color: black;
+    margin-left: -20%;
+}
+
+  
+#title{
+    color: rgb(160, 224, 221);
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -60px;
+    display: flex;
+    margin-top: -20px;
+}
+ #img1 {
+    width: 450px;
+    height: 450px;
+    margin-top: -90px;
+    margin-left: 34%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(146, 184, 196);
+}
+   
+#button1{
+    padding: 45px 12%;
+    display: inline;
+    font-size: 1.1em;
+    font-weight: 500;
+ margin: 100px 450px;
+  
+}
+#next{
+   height: 80px;
+   width: 80px;
+   background-color: rgba(175, 243, 252, 0.596);
+   border-radius: 50%;
+   color: rgb(0, 0, 0);
+   margin-left: -25px;
+   font-weight: 800;
+   font-size: 15px;
+}
+#button1{
+    position : absolute;
+    left: 400px;
+    bottom: 70px
+}
+#back{
+    height: 80px;
+   width: 80px;
+   background-color: rgba(175, 243, 252, 0.596);
+   border-radius: 50%;
+   color: rgb(0, 0, 0);
+   margin-left: -25px;
+   font-weight: 800;
+   font-size: 15px;
+}
+    
+#button2{
+    padding: 45px 12%;
+    display: inline;
+    font-size: 1.1em;
+    font-weight: 500;
+ margin: 100px 450px;
+}
+#button2{
+    position: absolute;
+    left: -270px;
+    bottom: 69px;
+}
+#Firstp{
+    color: rgb(238, 239, 245);
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 35px;
+    
+}
+.desc{
+    color: azure;
+    margin-left: 35px;
+    font-weight: 550;
+    font-size: 20px;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  .card {display: none}
